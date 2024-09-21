@@ -10,4 +10,4 @@ The program performs basic file validation by checking that the number of actual
 
 ## Test Cases
 
-A set of test cases will be developed to ensure comprehensive coverage of the program's functionality.
+A set of test cases has been developed to ensure comprehensive coverage of the program's functionality.
