@@ -1,7 +1,5 @@
 # Voucher Processing Program
 
-## Overview
-
 This repository contains a program designed to process a demo voucher file containing airtime vouchers. The program will generate an output text file formatted for printing via a dot matrix voucher printer.
 
 ## Validation
