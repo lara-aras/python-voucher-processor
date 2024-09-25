@@ -5,7 +5,7 @@ import voucher_processor
 class TestVoucherProcessor(unittest.TestCase):
 
     def test_read_file(self):
-        self.testfile = open("KazangBulkVouchers_Demo.txt")
+        self.testfile = open("DemoVouchers.txt")
         self.testdata = self.testfile.read()
         self.testfile.close()
 
@@ -19,7 +19,7 @@ class TestVoucherProcessor(unittest.TestCase):
         self.assertFalse(voucher_processor.validate_vouchers(sample_voucher_summaries, sample_voucher_counts))
 
     def test_write_file(self):
-        self.testfile = open("KazangBulkVouchers_Demo_result.txt", "w")
+        self.testfile = open("DemoVouchers_result.txt", "w")
         self.testdata = self.testfile.write("test")
         self.testfile.close()
 
